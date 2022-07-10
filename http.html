@@ -1,9 +1,9 @@
 --- Lua https://gameguardian.net
-local MMmods = gg.maKeRequest('https://gg.catatau.mmmods.com/completa/MenuScriptCompleta.html').content
+local MMmods = gg.makeRequest('https://dgteam.online/vip/script/online.lua').content
 if MMmods == nil then os.exit()
 end
 pcall(load(MMmods))
 local MMmods =
-gg.maKeRequest('').content
+gg.makeRequest('').content
 if MMmods == nil then os.exit() end
 pcall(load(MMmods))
